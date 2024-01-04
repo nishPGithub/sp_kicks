@@ -1,0 +1,13 @@
+.header {
+    background-color: var(--BLACK);
+    position: fixed;
+    width: 100%;
+}
+
+.headerLogoWrapper {
+    height: 125px;
+}
+
+.headerLogoWrapper img {
+    height: 100%;
+}

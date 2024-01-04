@@ -1,1 +1,5 @@
+:root {
+  --BLACK: #000000;
+}
 
+@import "./Components/Header/header.css";
