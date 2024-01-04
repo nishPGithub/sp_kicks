@@ -1,8 +1,9 @@
 import "./App.css";
 import Home from "./Pages/Home";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Header from "./Components/Header/Header";
 import AppRoutes from "./Components/Routing/AppRoutes";
+import "./Global/global"
 
 function App() {
     const routes = [{ path: "/", element: <Home /> }];

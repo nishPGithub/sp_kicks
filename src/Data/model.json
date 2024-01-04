@@ -1,0 +1,12 @@
+{
+    "navigation": [
+        {
+            "to": "/",
+            "label": "Home"
+        },
+        {
+            "to": "/",
+            "label": "Shoes"
+        }
+    ]
+}
