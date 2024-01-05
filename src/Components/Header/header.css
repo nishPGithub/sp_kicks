@@ -1,43 +1,114 @@
-.header {
-    background-color: var(--BLACK);
-    position: fixed;
-    width: 100%;
+@media (max-width: 768px) {
+    .header {
+        background-color: var(--BLACK);
+        position: fixed;
+        width: 100%;
+    }
+
+    .headerInnerWrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .headerLogoWrapper {
+        height: 125px;
+    }
+
+    .headerLogoWrapper img {
+        height: 100%;
+    }
+
+    .headerNav {
+        background-color: var(--BLACK);
+        font-size: 2.2rem;
+        position: absolute;
+        top: 0;
+        right: -100%;
+        bottom: 0;
+        width: 100%;
+        transition: 1.5s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        color: var(--NAV-GOLD);
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .headerNav.active {
+        right: 0;
+    }
+
+    .navbarList {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .headerNavHamburgerMenu {
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger-menu {
+        display: block;
+        color: var(--NAV-GOLD);
+        z-index: 2;
+    }
 }
 
-.headerInnerWrapper {
-    display: flex;
-    justify-content: space-between;
-}
+@media (min-width: 769px) {
+    .header {
+        background-color: var(--BLACK);
+        position: fixed;
+        width: 100%;
+    }
 
-.headerLogoWrapper {
-    height: 125px;
-}
+    .headerInnerWrapper {
+        display: flex;
+        justify-content: space-between;
+    }
 
-.headerLogoWrapper img {
-    height: 100%;
-}
+    .headerLogoWrapper {
+        height: 125px;
+    }
 
-.headerNavWrapper {
-    width: 100%;
-}
+    .headerLogoWrapper img {
+        height: 100%;
+    }
 
-.headerNav {
-    height: 100%;
-}
+    .headerNavWrapper {
+        width: 100%;
+    }
 
-.navbarList {
-    display: flex;
-    justify-content: space-evenly;
-    height: 100%;
-    align-items: center;
-}
+    .headerNav {
+        height: 100%;
+    }
 
-.link {
-    color: var(--NAV-GOLD);
-    font-size: 2rem;
-    font-weight: 600;
-}
+    .navbarList {
+        display: flex;
+        justify-content: space-evenly;
+        height: 100%;
+        align-items: center;
+    }
 
-.link:hover {
-    color: var(--NAV-HOVER);
+    .navLink {
+        color: var(--NAV-GOLD);
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .navLink:hover {
+        color: var(--NAV-HOVER);
+    }
+
+    .headerNavHamburgerMenu {
+        display: flex;
+        align-items: center;
+    }
+
+    .hamburger-menu {
+        color: var(--NAV-GOLD);
+        display: none;
+    }
+
 }
