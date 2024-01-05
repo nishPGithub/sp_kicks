@@ -6,7 +6,27 @@
         },
         {
             "to": "/",
+            "label": "T-Shirts"
+        },
+        {
+            "to": "/",
+            "label": "Tracksuits"
+        },
+        {
+            "to": "/",
+            "label": "Accessories"
+        },
+        {
+            "to": "/",
+            "label": "Jumpers"
+        },
+        {
+            "to": "/",
             "label": "Shoes"
+        },
+        {
+            "to": "/",
+            "label": "More"
         }
     ]
 }

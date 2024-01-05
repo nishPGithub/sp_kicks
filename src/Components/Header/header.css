@@ -4,10 +4,40 @@
     width: 100%;
 }
 
+.headerInnerWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
 .headerLogoWrapper {
     height: 125px;
 }
 
 .headerLogoWrapper img {
     height: 100%;
+}
+
+.headerNavWrapper {
+    width: 100%;
+}
+
+.headerNav {
+    height: 100%;
+}
+
+.navbarList {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+}
+
+.link {
+    color: var(--NAV-GOLD);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: var(--NAV-HOVER);
 }

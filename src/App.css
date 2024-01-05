@@ -1,5 +1,12 @@
 :root {
   --BLACK: #000000;
+  --NAV-GOLD: #bfa24d;
+  --NAV-HOVER: #eccc6e;
+}
+
+html {
+  font-family: "Open-sans";
+  font-size: 62.5%
 }
 
 @import "./Components/Header/header.css";
